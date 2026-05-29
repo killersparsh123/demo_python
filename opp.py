@@ -1,15 +1,17 @@
-class bike():
-    def setdetails(self,brand,model,color):
-        self.brand=brand
-        self.model=model
-        self.color=color
-    def showdetail(self):
-        print(f"This is a bike brand named {self.brand} and the model is {self.model} and the color is {self.color}")
-bike_1=bike()
-bike_1.setdetails('Yamaha','MT-15','Blue')
+class student:
+    def setdetails(self,name,rollno,marks):
+        self.name=name
+        self.rollno=rollno
+        self.marks=marks
+    def showdetails(self):
+        print(f"NAME is {self.name} and ROLLNO is {self.rollno} and MARKS is {self.marks}")
 
-bike_2=bike()
-bike_2.setdetails('Honda','CBR650R','Red')
+student_1=student()
+student_1.setdetails('John Doe', 101, 95)
 
-bike_1.showdetail()
-bike_2.showdetail()
+student_2=student()
+student_2.setdetails('sparsh',111,19)
+
+student_1.showdetails()
+student_2.showdetails()
+
