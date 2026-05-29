@@ -1,2 +1,1 @@
-add_discount=lambda x: x-(x*0.1)
-print(add_discount(100))
+add_10=lambda x:x+10 for u
